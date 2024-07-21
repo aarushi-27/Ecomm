@@ -1,0 +1,99 @@
+{% extends 'app/base.html' %}
+{% load static %}
+{% block title %}About{% endblock title %}
+
+
+{% block main-content %}
+<br><br>
+<br><br>
+    <h2 class="text-center">We are bringing Natural and Fresh back</h2>
+    <h5 class="text-center" style="color:grey">We ensure everything in our kitchen has been thoroughly tested for purity and freshness </h5>
+    <div class="row gy-3 my-3"style="padding: 20px;">
+        <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card">
+                <img src="{% static "app/images/product/a1.png" %}" class="card-img-top" alt="..." style="display: block; margin-left: auto; margin-right: auto;
+                width: 50%;">
+                <div class="card-body">
+                  <h6 class="card-title text-center"><b>Milking Twice a Day</b></h6>
+                  <p class="card-text text-center" style="color:grey;  font-weight: 500;">We source milk from farmers on the outskirts of your city for complete freshness and purity</p><br>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card">
+                <img src="{% static "app/images/product/a2.png" %}" class="card-img-top" alt="..." style="display: block; margin-left: auto; margin-right: auto;
+                width: 50%;">
+                <div class="card-body">
+                    <h6 class="card-title text-center"><b>72 Tests Everyday</b></h6>
+                  <p class="card-text text-center" style="color:grey;  font-weight: 500;">We quality test all milk for adulteration every single day which improves its shelf life</p><br>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card">
+                <img src="{% static "app/images/product/a3.png" %}" class="card-img-top" alt="..." style="display: block; margin-left: auto; margin-right: auto;
+                width: 50%;">
+                <div class="card-body">
+                    <h6 class="card-title text-center"><b>Pasteurization at 3°C </b></h6>
+                  <p class="card-text text-center" style="color:grey;  font-weight: 500;">Maintaining milk at 3°C prevents harmful bacteria growth</p><br>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card">
+                <img src="{% static "app/images/product/a4.png" %}" class="card-img-top" alt="..." style="display: block; margin-left: auto; margin-right: auto;
+                width: 50%;">
+                <div class="card-body">
+                    <h6 class="card-title text-center"><b>7am Delivery</b></h6>
+                  <p class="card-text text-center" style="color:grey;   font-weight: 500;">Fresh Milk reaches your doorstep within few hours of milking</p><br>
+                </div>
+            </div>
+        </div>
+    </div>
+<br><br>
+
+<h5 style="padding-left: 10px;">Farm to Home, Every Day</h5><br>
+<div style="background-color: white;">
+  <img src="{% static "app/images/product/about3.png" %}" class="card-img-top" alt="...">
+</div>
+<br><br>
+
+<h5 style="padding-left: 10px;">How we make it work for you</h5><br>
+<div style="background-color: white; border-radius: 20px; padding-left: 20px; padding-right: 20px;">
+  <img src="{% static "app/images/product/about2.png" %}" class="card-img-top" alt="...">
+</div>
+<br><br>
+
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <h5 style="padding-left: 10px;">We Deliver In</h5><br>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="{% static "app/images/product/about4.png" %}" class="d-block w-100" alt="..."> 
+    </div>
+    <div class="carousel-item">
+      <img src="{% static "app/images/product/about5.png" %}" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="{% static "app/images/product/about6.png" %}" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="{% static "app/images/product/about7.png" %}" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="{% static "app/images/product/about8.png" %}" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </a>
+</div><br><br>
+
+{% endblock main-content %}
